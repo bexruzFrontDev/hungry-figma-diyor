@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.container{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+header{
+    background-color: #1F98F0;
+
+}
+.h-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0;
+     
+    h1{
+        color: #FFFFFF;
+        font-size: 51px;
+        font-weight: 700;
+    }
+    p{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.h-right img {
+    width: 100%;
+    height: 800px;
+}
+
+@media (max-with: 939px) {
+    .h-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+}
+
+.u-main {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    padding: 60px 0;
+}
+.s-main {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.s-right .card {
+    display: flex;
+    margin: 0 auto;
+}
+
+aside h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.a-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.card1 {
+    text-align: center;
+
+    p {
+        font-family: 'Lato';
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+   
+    }
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background: #1F98F0;
+
+}
+
+.f-main {
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
+    gap: 70px;
+justify-content: space-evenly;
+    h1 {
+        color: aliceblue;
+      
+    }
+}
+.y1{
+    color: #1F98F0;
+    font-size: 21px ;
+    font-weight:500 ;
+    font-family: "Lato", sans-serif;
+}
+button {
+    width: 223px;
+    height: 60px;
+    border: 0;
+    color: #1F98F0;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}   
